@@ -45,7 +45,6 @@ class CommentViewSet(viewsets.ModelViewSet):
 class FollowViewSet(viewsets.ModelViewSet):
     serializer_class = FollowSerializer
     filter_backends = (DjangoFilterBackend, filters.SearchFilter)
-    # filterset_fields = ('following__username',)
     search_fields = ('following__username',)
 
     def get_queryset(self):
