@@ -17,7 +17,7 @@ git clone git@github.com:ZubovEvgeniy/api_final_yatube.git
 ```
 
 ```
-cd kittygram2plus
+cd api_final_yatube
 ```
 
 Cоздать и активировать виртуальное окружение:
